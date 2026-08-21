@@ -3,16 +3,11 @@
 	"version": "1.0.0",
 	"main": "script.js",
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
-		"preview": "vite preview",
+		"build": "rm -rf dist && mkdir -p dist && cp -R index.html style.css script.js img dist/",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"description": "",
-	"devDependencies": {
-		"vite": "^8.1.3"
-	}
+	"description": ""
 }
